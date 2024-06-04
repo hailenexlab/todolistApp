@@ -1,0 +1,40 @@
+.todolist {
+    width: 700px;
+    .un-completed {
+      opacity: 1;
+      font-weight: bold;
+      background-color: #9edfff;
+    }
+  
+    .is_completed {
+      background-color: #ffffff;
+    }
+    .todo-item {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+    }
+    .todo-item:hover {
+        background-color: #9edfff;
+      transition: all 0.3s;
+      opacity: .8;
+    }
+    ul li {
+      list-style: none;
+      font-size: 22px;
+      color: #000000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .btn {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+    input[type='checkbox'] {
+      width: 20px;
+      height: 20px;
+      accent-color: #ffffff;
+    }
+  }

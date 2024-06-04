@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #ffffff;
+    p {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(0, 0, 0);
+    }
+    .nav-link {
+      display: flex;
+      gap: 2rem;
+      float: right;
+      button {
+        padding: 8px;
+        border-radius: 7px;
+        background-color: #61a6ff;
+        outline: none;
+        border: none;
+        .btn-signup, .btn-signin {
+          text-decoration: none;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+      .btn-logout:hover {
+        background-color: #c7c7c7;
+        color: #ffffff;
+      }
+    }
+  }

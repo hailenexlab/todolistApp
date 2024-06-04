@@ -1,0 +1,39 @@
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  form {
+    display: flex;
+    width: 700px;
+    border-bottom: 1px solid #9edfff;
+    input[type='text'] {
+      flex: 6;
+      padding: 15px;
+      outline: none;
+      border: none;
+      border-radius: 20px 0 0 0 ;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: inherit;
+      font-size: 20px;
+      
+    }
+    button[type='submit'] {
+      flex: 1;
+      outline: none;
+      border: none;
+      border-radius: 0 20px 0 0;
+      background-color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #9edfff;
+      font-size: 22px;
+    }
+    button[type='submit']:hover {
+
+      transition: all 0.3s;
+      color: #fff;
+      opacity: 1;
+      color: #ffffff;
+    }
+  }
+}
