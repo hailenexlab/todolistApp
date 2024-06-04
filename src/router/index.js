@@ -4,7 +4,7 @@ import LoginPage from '../views/RegisterPage.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/register',
     component: RegisterPage
   },
   {

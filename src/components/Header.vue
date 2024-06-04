@@ -3,10 +3,10 @@
     <p>Vue Management</p>
     <div class="nav-link">
       <button>
-        <router-link to="/" class="btn-signup">Sign up</router-link>
+        <router-link to="/login" class="btn-signup">Sign in</router-link>
       </button>
       <button>
-        <router-link to="/login" class="btn-signin">Sign in</router-link>
+        <router-link to="/register" class="btn-signin">Sign up</router-link>
       </button>
     </div>
   </div>

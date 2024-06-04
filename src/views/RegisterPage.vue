@@ -7,6 +7,7 @@
     <input type="password" placeholder="password..." />
     <button>Sign in</button>
     <label>Do you have acount?</label>
+    <label>Login</label>
   </form>
 </template>
 
